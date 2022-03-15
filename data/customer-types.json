@@ -1,36 +1,19 @@
 [
   {
-    "key": "iOSUser",
+    "key": "customerCustomFields",
     "name": {
-      "de": "iOSUser",
-      "en": "iOSUser"
+      "en": "Customer custom fields"
     },
-    "resourceTypeIds": [
-      "customer"
-    ],
+    "resourceTypeIds": ["customer"],
     "fieldDefinitions": [
       {
-        "name": "apnsToken",
+        "name": "contactEmail",
         "label": {
-          "en": "apnsToken",
-          "de": "apnsToken"
+          "en": "Contact email"
         },
-        "required": false,
+        "required": true,
         "type": {
           "name": "String"
-        },
-        "inputHint": "SingleLine"
-      },
-      {
-        "name": "myStore",
-        "label": {
-          "en": "myStore",
-          "de": "meinLaden"
-        },
-        "required": false,
-        "type": {
-          "name": "Reference",
-          "referenceTypeId": "channel"
         },
         "inputHint": "SingleLine"
       }

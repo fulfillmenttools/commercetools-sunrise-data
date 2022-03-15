@@ -1,23 +1,74 @@
 [
   {
-    "key": "reservationOrder",
+    "key": "orderCustomFields",
     "name": {
-      "en": "Reserved Products",
-      "de": "Reservierte Produkte"
+      "en": "Order custom fields"
     },
-    "resourceTypeIds": [
-      "order"
-    ],
+    "resourceTypeIds": ["order"],
     "fieldDefinitions": [
       {
-        "name": "isReservation",
+        "name": "fft_pickjob_id",
         "label": {
-          "en": "Reservation",
-          "de": "Reservierung"
+          "pl": "fft_pickjob_id"
         },
         "required": false,
         "type": {
-          "name": "Boolean"
+          "name": "String"
+        },
+        "inputHint": "SingleLine"
+      },
+      {
+        "name": "fft_handover_job_id",
+        "label": {
+          "pl": "fft_handover_job_id"
+        },
+        "required": false,
+        "type": {
+          "name": "String"
+        },
+        "inputHint": "SingleLine"
+      },
+      {
+        "name": "fft_load_units_amount",
+        "label": {
+          "pl": "fft_load_units_amount"
+        },
+        "required": false,
+        "type": {
+          "name": "Number"
+        },
+        "inputHint": "SingleLine"
+      },
+      {
+        "name": "fft_load_units",
+        "label": {
+          "pl": "fft_load_units"
+        },
+        "required": false,
+        "type": {
+          "name": "String"
+        },
+        "inputHint": "SingleLine"
+      },
+      {
+        "name": "fft_shortid",
+        "label": {
+          "pl": "fft_shortid"
+        },
+        "required": false,
+        "type": {
+          "name": "String"
+        },
+        "inputHint": "SingleLine"
+      },
+      {
+        "name": "fft_processing_error",
+        "label": {
+          "pl": "fft_processing_error"
+        },
+        "required": false,
+        "type": {
+          "name": "String"
         },
         "inputHint": "SingleLine"
       }

@@ -1,127 +1,167 @@
-[{
+[
+  {
     "name": "Standard EU",
     "key": "std-EU",
     "localizedDescription": {
-        "en":"Delivery in 5-6 working days",
-        "de":"Lieferung in 5-6 Werktagen"
+      "en": "Delivery in 5-6 working days",
+      "de": "Lieferung in 5-6 Werktagen"
     },
     "taxCategory": {
-        "typeId": "tax-category",
-        "id": "EU"
+      "typeId": "tax-category",
+      "id": "EU"
     },
     "zoneRates": [
-        {
-            "zone": {
-                "typeId": "zone",
-                "id": "Europe"
+      {
+        "zone": {
+          "typeId": "zone",
+          "id": "Europe"
+        },
+        "shippingRates": [
+          {
+            "price": {
+              "currencyCode": "EUR",
+              "centAmount": 300
             },
-            "shippingRates": [
-                {
-                    "price": {
-                        "currencyCode": "EUR",
-                        "centAmount": 300
-                    },
-                    "freeAbove": {
-                        "currencyCode": "EUR",
-                        "centAmount": 20000
-                    },
-                    "tiers": []
-                }
-            ]
-        }
+            "freeAbove": {
+              "currencyCode": "EUR",
+              "centAmount": 20000
+            },
+            "tiers": []
+          }
+        ]
+      }
     ],
     "isDefault": true
-},
-{
+  },
+  {
     "name": "Express EU",
     "key": "express-EU",
     "localizedDescription": {
-        "en":"Same day delivery",
-        "de":"Lieferung am selben Tag"
+      "en": "Same day delivery",
+      "de": "Lieferung am selben Tag"
     },
     "taxCategory": {
-        "typeId": "tax-category",
-        "id": "EU"
+      "typeId": "tax-category",
+      "id": "EU"
     },
     "zoneRates": [
-        {
-            "zone": {
-                "typeId": "zone",
-                "id": "Europe"
+      {
+        "zone": {
+          "typeId": "zone",
+          "id": "Europe"
+        },
+        "shippingRates": [
+          {
+            "price": {
+              "currencyCode": "EUR",
+              "centAmount": 1000
             },
-            "shippingRates": [
-                {
-                    "price": {
-                        "currencyCode": "EUR",
-                        "centAmount": 1000
-                    },
-                    "tiers": []
-                }
-            ]
-        }
+            "tiers": []
+          }
+        ]
+      }
     ],
     "isDefault": false
-},{
+  },
+  {
     "name": "Standard US",
     "key": "std-US",
     "localizedDescription": {
-        "en":"Delivery in 5-6 working days",
-        "de":"Lieferung in 5-6 Werktagen"
+      "en": "Delivery in 5-6 working days",
+      "de": "Lieferung in 5-6 Werktagen"
     },
     "taxCategory": {
-        "typeId": "tax-category",
-        "id": 1
+      "typeId": "tax-category",
+      "id": 1
     },
     "zoneRates": [
-        {
-            "zone": {
-                "typeId": "zone",
-                "id": "United States"
+      {
+        "zone": {
+          "typeId": "zone",
+          "id": "United States"
+        },
+        "shippingRates": [
+          {
+            "price": {
+              "currencyCode": "USD",
+              "centAmount": 300
             },
-            "shippingRates": [
-                {
-                    "price": {
-                        "currencyCode": "USD",
-                        "centAmount": 300
-                    },
-                    "freeAbove": {
-                        "currencyCode": "USD",
-                        "centAmount": 20000
-                    },
-                    "tiers": []
-                }
-            ]
-        }
+            "freeAbove": {
+              "currencyCode": "USD",
+              "centAmount": 20000
+            },
+            "tiers": []
+          }
+        ]
+      }
     ],
     "isDefault": false
-},
-{
+  },
+  {
     "name": "Express US",
     "key": "express-US",
     "localizedDescription": {
-        "en":"Same day delivery",
-        "de":"Lieferung am selben Tag"
+      "en": "Same day delivery",
+      "de": "Lieferung am selben Tag"
     },
     "taxCategory": {
-        "typeId": "tax-category",
-        "id": 1
+      "typeId": "tax-category",
+      "id": 1
     },
     "zoneRates": [
-        {
-            "zone": {
-                "typeId": "zone",
-                "id": "United States"
+      {
+        "zone": {
+          "typeId": "zone",
+          "id": "United States"
+        },
+        "shippingRates": [
+          {
+            "price": {
+              "currencyCode": "USD",
+              "centAmount": 1000
             },
-            "shippingRates": [
-                {
-                    "price": {
-                        "currencyCode": "USD",
-                        "centAmount": 1000
-                    },
-                    "tiers": []
-                }
-            ]
-        }
+            "tiers": []
+          }
+        ]
+      }
     ],
     "isDefault": false
-}]
+  },
+  {
+    "name": "Click & Collect",
+    "key": "click-and-collect",
+    "localizedDescription": {
+      "de": "Click & Collect",
+      "en": "Click & Collect"
+    },
+    "taxCategory": {
+      "typeId": "tax-category",
+      "id": 1
+    },
+    "zoneRates": [
+      {
+        "zone": {
+          "typeId": "zone",
+          "id": "Europe"
+        },
+        "shippingRates": [
+          {
+            "price": {
+              "type": "centPrecision",
+              "currencyCode": "EUR",
+              "centAmount": 0,
+              "fractionDigits": 2
+            },
+            "tiers": []
+          }
+        ]
+      }
+    ],
+    "isDefault": false,
+    "references": [],
+    "attributeTypes": {},
+    "cartFieldTypes": {},
+    "lineItemFieldTypes": {},
+    "customLineItemFieldTypes": {}
+  }
+]

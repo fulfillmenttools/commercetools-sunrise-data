@@ -5,7 +5,9 @@
     "locations": [
       { "country": "AT"},
       { "country": "DE"},
-      { "country": "NL"}
+      { "country": "NL"},
+      { "country": "PL"},
+      { "country": "GB"}
     ]
   },
   {
@@ -13,6 +15,20 @@
     "description": "",
     "locations": [
       { "country": "US"}
+    ]
+  },
+  {
+    "name": "Australasia",
+    "description": "",
+    "locations": [
+      { "country": "AU"}
+    ]
+  },
+  {
+    "name": "Middle East",
+    "description": "",
+    "locations": [
+      { "country": "AE"}
     ]
   }
 ]

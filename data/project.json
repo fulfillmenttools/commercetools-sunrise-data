@@ -1,16 +1,27 @@
 {
   "currencies": [
     "EUR",
-    "USD"
+    "USD",
+    "PLN",
+    "GBP",
+    "AUD",
+    "AED"
   ],
   "countries": [
     "DE",
     "AT",
     "US",
-    "NL"
+    "NL",
+    "PL",
+    "GB",
+    "AU",
+    "AE"
   ],
   "languages": [
     "EN",
-    "DE"
+    "DE",
+    "PL",
+    "NL",
+    "AR"
   ]
 }

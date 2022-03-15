@@ -1,27 +1,52 @@
-[{
+[
+  {
     "key": "default",
     "name": {
-        "en": "Default"
+      "en": "Default"
     }
-},
-{
+  },
+  {
     "key": "dach",
     "name": {
-        "en": "DACH region"
+      "en": "DACH region",
+      "de": "DACH Region"
     },
     "languages": ["de"]
-},
-{
+  },
+  {
     "key": "europe",
     "name": {
-        "en": "Europe"
+      "en": "Europe",
+      "de": "Europa"
     },
-    "languages": ["de", "en"]
-},
-{
+    "languages": ["de", "en", "nl", "pl"]
+  },
+  {
     "key": "uk",
     "name": {
-        "en": "UK"
+      "en": "UK"
     },
     "languages": ["en"]
-}]
+  },
+  {
+    "key": "us",
+    "name": {
+      "en": "US"
+    },
+    "languages": ["en"]
+  },
+  {
+    "key": "australasia",
+    "name": {
+      "en": "Australasia"
+    },
+    "languages": ["en"]
+  },
+  {
+    "key": "middle-east",
+    "name": {
+      "en": "Middle East"
+    },
+    "languages": ["en", "ar"]
+  }
+]

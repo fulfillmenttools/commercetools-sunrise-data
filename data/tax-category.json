@@ -5,13 +5,13 @@
     "rates": [
       {
         "name": "20% incl.",
-        "amount": 0.2,
+        "amount": 0.20,
         "includedInPrice": true,
         "country": "AT"
       },
       {
         "name": "10% incl.",
-        "amount": 0.1,
+        "amount": 0.10,
         "includedInPrice": true,
         "country": "US"
       },
@@ -26,6 +26,30 @@
         "amount": 0.21,
         "includedInPrice": true,
         "country": "NL"
+      },
+      {
+        "name": "23% incl.",
+        "amount": 0.21,
+        "includedInPrice": true,
+        "country": "PL"
+      },
+      {
+        "name": "20% incl.",
+        "amount": 0.20,
+        "includedInPrice": true,
+        "country": "GB"
+      },
+      {
+        "name": "10% incl.",
+        "amount": 0.10,
+        "includedInPrice": true,
+        "country": "AU"
+      },
+      {
+        "name": "5% incl.",
+        "amount": 0.05,
+        "includedInPrice": true,
+        "country": "AE"
       }
     ]
   },
@@ -34,28 +58,52 @@
     "key": "low",
     "rates": [
       {
-        "name": "20% incl.",
-        "amount": 0.07,
+        "name": "10% incl.",
+        "amount": 0.10,
         "includedInPrice": true,
         "country": "AT"
       },
       {
-        "name": "10% incl.",
+        "name": "8% incl.",
         "amount": 0.08,
         "includedInPrice": true,
         "country": "US"
       },
       {
-        "name": "19% incl.",
-        "amount": 0.05,
+        "name": "7% incl.",
+        "amount": 0.07,
         "includedInPrice": true,
         "country": "DE"
       },
       {
-        "name": "21% incl.",
+        "name": "9% incl.",
         "amount": 0.09,
         "includedInPrice": true,
         "country": "NL"
+      },
+      {
+        "name": "8% incl.",
+        "amount": 0.08,
+        "includedInPrice": true,
+        "country": "PL"
+      },
+      {
+        "name": "5% incl.",
+        "amount": 0.05,
+        "includedInPrice": true,
+        "country": "GB"
+      },
+      {
+        "name": "10% incl.",
+        "amount": 0.10,
+        "includedInPrice": true,
+        "country": "AU"
+      },
+      {
+        "name": "5% incl.",
+        "amount": 0.05,
+        "includedInPrice": true,
+        "country": "AE"
       }
     ]
   }

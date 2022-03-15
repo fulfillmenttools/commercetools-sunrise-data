@@ -5,9 +5,7 @@
       "de": "Ladengeschäft",
       "en": "Physical Store"
     },
-    "resourceTypeIds": [
-      "channel"
-    ],
+    "resourceTypeIds": ["channel"],
     "fieldDefinitions": [
       {
         "name": "imageUrl",
@@ -15,7 +13,7 @@
           "en": "Image URL",
           "de": "Bild URL"
         },
-        "required": true,
+        "required": false,
         "type": {
           "name": "String"
         },
@@ -27,11 +25,33 @@
           "de": "Öffnungszeiten",
           "en": "Opening Times"
         },
-        "required": true,
+        "required": false,
         "type": {
           "name": "LocalizedString"
         },
         "inputHint": "MultiLine"
+      }
+    ]
+  },
+  {
+    "key": "warehouse",
+    "name": {
+      "de": "Lager",
+      "en": "Warehouse"
+    },
+    "resourceTypeIds": ["channel"],
+    "fieldDefinitions": [
+      {
+        "name": "imageUrl",
+        "label": {
+          "en": "Image URL",
+          "de": "Bild URL"
+        },
+        "required": false,
+        "type": {
+          "name": "String"
+        },
+        "inputHint": "SingleLine"
       }
     ]
   }

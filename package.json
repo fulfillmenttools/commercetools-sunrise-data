@@ -1,7 +1,6 @@
 {
   "name": "sunrise",
   "version": "1.0.0",
-  "description": "[![Build Status](https://travis-ci.org/commercetools/commercetools-sunrise-data.svg?branch=master)](https://travis-ci.org/commercetools/commercetools-sunrise-data)",
   "main": "index.js",
   "scripts": {
     "test": "eslint ./lib/**",
@@ -39,7 +38,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/commercetools/commercetools-sunrise-data.git"
+    "url": "git+https://github.com/fulfillmenttools/commercetools-sunrise-data.git"
   },
   "keywords": [
     "sunrise",
